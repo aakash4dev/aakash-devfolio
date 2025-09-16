@@ -434,15 +434,7 @@ export default function Home() {
                       <Calendar className="mr-2 h-4 w-4" />
                       Schedule a Meeting
                     </a>
-                    <a
-                      href="https://drive.google.com/file/d/1ua_I6_7Sg0VcFROTm1wFf72_wL7brZDb/view?usp=sharing"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-pink-600 hover:bg-pink-700"
-                    >
-                      <FileText className="mr-2 h-4 w-4" />
-                      View CV
-                    </a>
+                     
                   </div>
                 </div>
               </div>
