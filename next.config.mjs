@@ -7,6 +7,7 @@ try {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',  // ← MOVE HERE (top level)
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -14,8 +15,8 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    unoptimized: false, // Change from `true` to `false` to allow Next.js image optimization
-    domains: ['aakash4dev.com'], // Add your domain for optimized images
+    unoptimized: true, // Must be true for static export
+    domains: ['aakash4dev.com'],
   },
   experimental: {
     webpackBuildWorker: true,

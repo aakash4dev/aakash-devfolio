@@ -30,9 +30,11 @@ This website is built using the following languages and frameworks:
 To run this website locally, use the following commands:
 
 ```bash
-npm i --legacy-peer-deps  # or `npm i --force` 
+npm i
 npm run dev
 ```
+
+**Note:** The project dependencies have been pinned to specific versions to ensure stability and avoid peer dependency conflicts. You no longer need to use the `--legacy-peer-deps` or `--force` flag.
 
 ### ⚖️ License & Usage
 
